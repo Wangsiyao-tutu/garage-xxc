@@ -1,0 +1,40 @@
+{
+    "pages": [
+        "pages/smybs/main",
+        "pages/a/main",
+        "pages/login/main",
+        "pages/index/main",
+        "pages/todos/main",
+        "pages/user/main",
+        "pages/declare/main",
+        "pages/notFound/main",
+        "pages/calendarSign/main"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#e3f9fd",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black",
+        "backgroundTextStyle": "light",
+        "backgroundColor": "#e3f9fd",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 1000
+    },
+    "tabBar": {
+        "color": "#999",
+        "backgroundColor": "#fafafa",
+        "selectedColor": "#333",
+        "borderStyle": "black",
+        "list": [{
+            "text": "首页",
+            "pagePath": "pages/index/main",
+            "iconPath": "static/tabs/home.png",
+            "selectedIconPath": "static/tabs/home-active.png"
+        }, {
+            "text": "我的",
+            "pagePath": "pages/user/main",
+            "iconPath": "static/tabs/orders.png",
+            "selectedIconPath": "static/tabs/orders-active.png"
+        }],
+        "position": "bottom"
+    }
+}
