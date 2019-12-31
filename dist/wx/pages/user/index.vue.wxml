@@ -1,0 +1,10 @@
+<template name="fca48c26">
+  <view class="_div data-v-94b75564 container">
+    <view class="_div data-v-94b75564 user">
+      <open-data wx:if="{{isShow}}" type="userAvatarUrl" class="_open-data data-v-94b75564 userAvatarUrl"></open-data>
+      <open-data wx:if="{{isShow}}" type="userNickName" class="_open-data data-v-94b75564 userNickName"></open-data>
+    </view>
+    <view class="_div data-v-94b75564 content"><button open-type="openSetting" class="_button data-v-94b75564">进入授权设置</button> <button open-type="contact" class="_button data-v-94b75564">进入客服会话</button> <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-94b75564"> 获取用户信息 </button> <button bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_button data-v-94b75564">next</button> <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_button data-v-94b75564"> 授权登录 </button><label wx:else class="_span data-v-94b75564">请升级微信版本</label> <button bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_button data-v-94b75564">微信步数</button> <button bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}" class="_button data-v-94b75564">手动刷新页面</button></view>
+    <view class="_div data-v-94b75564"></view>
+  </view>
+</template>

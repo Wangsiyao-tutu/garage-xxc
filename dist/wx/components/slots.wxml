@@ -1,0 +1,2 @@
+<import src="/components/canvas/statistic.vue.wxml" />
+<import src="/components/canvas/mycanvas.vue.wxml" />

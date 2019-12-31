@@ -1,0 +1,3 @@
+<template name="61a7f0ae">
+  <view class="_div data-v-50994a2d statistic"><canvas canvas-id="runCanvas" id="runCanvas" class="_canvas data-v-50994a2d canvas"></canvas> <button bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-50994a2d">+++++</button></view>
+</template>

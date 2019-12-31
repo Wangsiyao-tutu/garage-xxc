@@ -1,0 +1,8 @@
+<template name="f7dbe43a">
+  <view class="_div data-v-0a39681c">
+    {{ name }}
+    <button bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-0a39681c">login</button> <button bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_button data-v-0a39681c">获取全局数据</button>{{ global.serverSrc }}
+    <button bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_button data-v-0a39681c">pages信息</button>
+    <navigator delta="1" open-type="navigateBack" hover-class="none" class="_navigator data-v-0a39681c">后退 </navigator>
+  </view>
+</template>

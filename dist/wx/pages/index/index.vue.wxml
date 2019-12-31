@@ -1,0 +1,33 @@
+<template name="7b41580c">
+  <view class="_div data-v-0168b245 page">
+    <view class="_div data-v-0168b245 header">
+      <picker mode="date" bindchange="handleProxy" value="{{selectDate}}" start="2015-09-0" end="{{nowDate}}" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_picker data-v-0168b245">
+        <view class="_div data-v-0168b245"><label class="_label data-v-0168b245 day"><label class="_span data-v-0168b245 DD">{{ Day }}</label> <label class="_span data-v-0168b245 YM">.{{ Month }}.{{ Year }}</label></label></view>
+      </picker>
+      <view class="_div data-v-0168b245 weather"><label wx:if="{{weather.day == '今天'}}" class="_span data-v-0168b245">{{ "今天" }}</label><label wx:else class="_span data-v-0168b245">{{ weather.city_name }}·{{ weather.climate }}
+          {{ weather.temperature }}℃</label></view>
+    </view>
+    <view class="_div data-v-0168b245 body">
+      <view class="_div data-v-0168b245 container" wx:key="item" key="{{item}}" wx:for="{{content}}" wx:for-index="index" wx:for-item="item">
+        <view class="_div data-v-0168b245 content" wx:if="{{item.category == 0}}">
+          <view class="_div data-v-0168b245 img">
+            <image data-url="{{item.src}}" src="{{item.src}}" mode="aspectFit" lazy-load="false" bindlongpress="handleProxy" bindtap="handleProxy" data-eventid="{{'1_'+index}}" data-comkey="{{$k}}" class="_image data-v-0168b245 {{item.className}}"></image>
+          </view>
+          <view class="_div data-v-0168b245 text"><label class="_span data-v-0168b245 hp_author">{{ item.title }} | {{ item.pic_info }}</label> <label class="_span data-v-0168b245 hp_content">{{ item.content }}</label> <label class="_span data-v-0168b245 text_author">{{ item.author }}</label></view>
+          <view class="_div data-v-0168b245 share_view"><button class="_button data-v-0168b245 edit_btn" bindtap="handleProxy" data-eventid="{{'2_'+index}}" data-comkey="{{$k}}">编辑</button> <button class="_button data-v-0168b245 share_btn" open-type="share">分享</button></view>
+        </view>
+        <view class="_div data-v-0168b245 content" wx:else>
+          <view bindtap="handleProxy" data-eventid="{{'3_'+index}}" data-comkey="{{$k}}" class="_div data-v-0168b245">
+            <view class="_div data-v-0168b245 item_cate" wx:if="{{item.category == 1}}"><label class="_span data-v-0168b245 item_type" wx:if="{{item.tag_list[0] == null}}">-阅读-</label><label class="_span data-v-0168b245 item_type" wx:else>-{{ item.tag_list[0].title }}-</label></view>
+            <view class="_div data-v-0168b245 textName"><label class="_span data-v-0168b245 item_title">{{ item.title }}</label> <label class="_span data-v-0168b245 item_author">文/{{ item.author }}</label></view>
+            <view class="_div data-v-0168b245 item_image">
+              <image src="{{item.src}}" mode="aspectFit" lazy-load="false" class="_image data-v-0168b245 {{item.className}}"></image>
+            </view>
+            <view class="_div data-v-0168b245 text"><label class="_span data-v-0168b245 hp_author">{{ item.content }}</label> <label class="_span data-v-0168b245 hp_content">今天</label></view>
+          </view>
+          <view class="_div data-v-0168b245 share_view"><button class="_button data-v-0168b245 share_btn" open-type="share" data-alpha-beta="{{index}}" hover-stop-propagation="true"> 分享 </button></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

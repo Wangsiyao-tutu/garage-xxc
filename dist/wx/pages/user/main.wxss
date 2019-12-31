@@ -1,0 +1,25 @@
+@import "../../common/vendor.wxss";
+
+[v-cloak].data-v-94b75564 {
+  display: none;
+}
+.container.data-v-94b75564 {
+  width: 100%;
+}
+.container .user.data-v-94b75564 {
+  width: 150rpx;
+  padding-top: 200rpx;
+}
+.container .user .userAvatarUrl.data-v-94b75564 {
+  overflow: hidden;
+  display: block;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.container .user .userNickName.data-v-94b75564 {
+  display: block;
+  font-size: 40rpx;
+  text-align: center;
+  padding-top: 20rpx;
+}

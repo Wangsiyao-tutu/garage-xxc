@@ -1,0 +1,20 @@
+<import src="/components/canvas/statistic.vue.wxml" />
+<import src="/components/canvas/mycanvas.vue.wxml" /><template name="0b6731f3">
+  <view class="_div data-v-f514af58">
+    {{message}}
+    <view class="_div data-v-f514af58 section">
+      <view class="_div data-v-f514af58 section__title">省市区选择器</view>
+      <picker mode="region" bindchange="handleProxy" value="{{region}}" custom-item="{{customItem}}" class="_picker data-v-f514af58 picker_region" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <view class="_div data-v-f514af58 picker"> 当前选择：{{region[0]}}，{{region[1]}}，{{region[2]}}
+        </view>
+      </picker>
+    </view>
+    <view class="_div data-v-f514af58 section">
+      <view class="_div data-v-f514af58 section__title">多列选择器</view>
+      <picker mode="multiSelector" bindchange="handleProxy" bindcolumnchange="handleProxy" value="{{multiIndex}}" range="{{multiArray}}" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_picker data-v-f514af58">
+        <view class="_div data-v-f514af58 picker"> 当前选择：{{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}，{{multiArray[2][multiIndex[2]]}}
+        </view>
+      </picker>
+    </view> <template data="{{...$root[$kk+'0'], $root}}" is="61a7f0ae"></template> <template data="{{...$root[$kk+'1'], $root}}" is="22d30516"></template> <button bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_button data-v-f514af58">asd</button> <button bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_button data-v-f514af58">asd</button>
+  </view>
+</template>

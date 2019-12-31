@@ -1,0 +1,116 @@
+@import "../../common/vendor.wxss";
+
+.header.data-v-0168b245 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60rpx;
+  background-color: white;
+  color: #868686;
+}
+.header .day.data-v-0168b245 {
+  float: left;
+  padding-left: 10rpx;
+}
+.header .day .DD.data-v-0168b245 {
+  font-size: 40rpx;
+}
+.header .day .YM.data-v-0168b245 {
+  font-size: 28rpx;
+}
+.header .weather.data-v-0168b245 {
+  float: right;
+  font-size: 28rpx;
+  padding-top: 12rpx;
+  padding-right: 20rpx;
+}
+.body.data-v-0168b245 {
+  background-color: #bccee9;
+}
+.content.data-v-0168b245 {
+  width: 100%;
+  overflow: hidden;
+  background: white;
+  margin-bottom: 20rpx;
+  border-bottom-left-radius: 36rpx;
+  border-bottom-right-radius: 36rpx;
+}
+.content .textName.data-v-0168b245 {
+  width: 100%;
+  font-size: 24rpx;
+  padding-left: 44rpx;
+  color: #868686;
+}
+.content .textName ._span.data-v-0168b245 {
+  display: block;
+}
+.content .textName .item_title.data-v-0168b245 {
+  color: black;
+  font-size: 32rpx;
+  padding: 20rpx;
+  padding-left: 0;
+}
+.content .textName .item_author.data-v-0168b245 {
+  padding-top: 20rpx;
+}
+.content .img.data-v-0168b245 {
+  padding-top: 60rpx;
+}
+.content .img .hp_img.data-v-0168b245 {
+  width: 100%;
+}
+.content .text.data-v-0168b245 {
+  display: flex;
+  font-size: 28rpx;
+  text-align: center;
+  flex-direction: column;
+  color: #868686;
+}
+.content .text .hp_content.data-v-0168b245 {
+  padding: 20rpx 0;
+}
+.content .share_view.data-v-0168b245 {
+  width: 100%;
+}
+.content .share_view ._button.data-v-0168b245 {
+  width: 96rpx;
+  height: 56rpx;
+  font-size: 20rpx;
+  text-align: center;
+  line-height: 56rpx;
+  color: #868686;
+}
+.content .share_view .edit_btn.data-v-0168b245 {
+  position: relative;
+  top: 40rpx;
+  left: 180rpx;
+}
+.content .share_view .share_btn.data-v-0168b245 {
+  position: relative;
+  top: -16rpx;
+  left: 300rpx;
+}
+.content .item_cate.data-v-0168b245 {
+  display: flex;
+  flex-direction: column;
+}
+.content .item_cate ._span.data-v-0168b245 {
+  font-size: 28rpx;
+  text-align: center;
+  color: #868686;
+}
+.content .item_cate .item_type.data-v-0168b245 {
+  padding: 10rpx 0;
+}
+.content .item_image.data-v-0168b245 {
+  padding: 0;
+  width: 750rpx;
+  padding-top: -20rpx;
+  vertical-align: middle;
+}
+.content .item_image .item_img.data-v-0168b245 {
+  display: block;
+  margin: auto;
+  width: 650rpx;
+}
